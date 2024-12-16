@@ -34,11 +34,17 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
  module
+ 
  experiment2(A,B,C,D,f1,w,x,y,z,f2);
+ 
  input A,B,C,D,w,x,y,z;
+ 
  output f1,f2;
+ 
  assign f1=((~B&~D)|(~A&B&D)|(A&B&~C));
+ 
  assign f2=((~y&z)|(x&y)|(w&y));
+ 
  endmodule
 
 
