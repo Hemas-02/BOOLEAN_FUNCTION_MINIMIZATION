@@ -36,50 +36,27 @@ Boolean Algebra is a branch of algebra that deals with boolean values—true and
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-i)
-module funct1(a,b,c,d,f1);
-
-input a,b,c,d;
-
-output f1;
-
-assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
-
-endmodule
-
-ii)
-module funct2(w,x,y,z,f2);
-
-input w,x,y,z;
-
-output f2;
-
-assign f2=((~y & z)|( w & y )|(x & y));
-
-endmodule
-
-
-
-Developed by: Hemalatha
-
+Developed by: Hemalatha.R
 RegisterNumber:24901252
 
+module
+
+experiment2(A,B,c<d<f1,w,x,y,z,f2);
+
+input A,B,C,D,w,x,y,z;
+
+assign f1=((~B&~D)|(~A&B&D)|(A&B&~C));
+
+assign f2=((~y&z)|(x&y)|(w&y));
+
+end module
 
 **RTL**
 
-![WhatsApp Image 2024-12-09 at 08 51 30_2547392f](https://github.com/user-attachments/assets/ac79ea05-c527-4b7f-b44c-0664d79b845d)
-
-![WhatsApp Image 2024-12-09 at 08 51 30_cd6b2f58](https://github.com/user-attachments/assets/5152d00a-cc7c-4dbd-8c4e-6cc5388d74e3)
-
-
+![image](https://github.com/user-attachments/assets/4f524c4c-c4dd-47c2-bcfb-ae2c97253cb8)
 
 **OUTPUT **
-
-![WhatsApp Image 2024-12-09 at 08 51 30_a41ea9bb](https://github.com/user-attachments/assets/17fcace8-ca1b-4e05-8230-cc5083b69415)
-
-![WhatsApp Image 2024-12-09 at 08 51 30_10da5651](https://github.com/user-attachments/assets/793abf3b-d6c1-4605-941e-540aeabc2d41)
-
-
+![image](https://github.com/user-attachments/assets/28059130-78d0-42ab-81ce-db4d4f9b3093)
 
 **Result:**
 
